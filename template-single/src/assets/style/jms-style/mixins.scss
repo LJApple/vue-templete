@@ -1,0 +1,387 @@
+/*
+ * @Description: 主题颜色宏定义
+ * @Author: xujian
+ * @Date: 2020-07-26 14:50:01
+ */
+
+// 默认主题
+$default-theme: (
+  
+/********** 文字颜色--白色主题 ******************/
+  // 品牌色文字颜色
+  text-color-brand: $-color-brand,
+  // 主标题文字颜色 （主题色）
+  text-color-main: $-color-text-shalow-main,
+  // 次标题文字
+  text-color-subtitle: $-color-text-shalow-subtitle,
+  // 常规文字
+  text-color-routine: $-color-text-shalow-routine,
+  // 次要文字
+  text-color-secondary: $-color-text-shalow-secondary,
+  // 提示文字
+  text-color-occupy: $-color-text-shalow-occupy,
+  // 提示文字
+  text-color-disabled: $-color-text-shalow-disabled,
+
+/********** 边框颜色--白色主题 ******************/
+  // 品牌色边框
+  border-color-brand: $-color-brand,
+  // 主题色边框
+  border-color-main: $-color-theme-shalow,
+  // 一级边框（按钮边框）
+  border-color-base: $-color-border-shalow-base,
+  // 二级边框（form表单元素边框）
+  border-color-light: $-color-border-shalow-light,
+  // 三级边框（其他边框，除按钮和form都用这个）
+  border-color-lighter: $-color-border-shalow-lighter,
+  // 弹出框边框颜色
+  border-color-pop: $-color-border-shalow-lighter,
+  // 报价选中小三角
+  border-color-arrow: $-color-text-shalow-secondary,
+  // 报价新增加号
+  border-color-plus: $-color-icon-shalow-nav,
+
+/********** icon色--白色主题 ******************/
+  // 品牌色icon
+  brand-icon-color: $-color-icon-shalow-brand,
+  // 导航色icon
+  nav-icon-color: $-color-icon-shalow-nav,
+  // 常规icon颜色
+  routine-icon-color: $-color-icon-shalow-routine,
+  // 禁用icon颜色
+  disabled-icon-color: $-color-icon-shalow-disabled,
+
+/********** 背景色--白色主题 ******************/
+  // 品牌色背景色
+  bg-color-brand: $-color-brand,
+  // 主题色
+  bg-color-main: $-color-theme-shalow,
+  // 全局大背景颜色
+  bg-color-base: $-color-bg-shalow-base,
+  // 标题（表单、卡片）背景色
+  bg-color-light: $-color-bg-shalow-light,
+  // 弹出框背景色（下拉选择，日期选择，确认框背景色）
+  bg-color-pop: $-color-bg-shalow-pop,
+  // 弹出框激活背景色（下拉选择，日期选择，确认框选中时候的背景色）
+  bg-color-pop-active: $-color-bg-shalow-pop-active,
+  // 表单标题背景（30%透明度）； 导航栏输入框背景底色； 其他通用组件选择激活背景底色
+  bg-color-title-active: $-color-bg-shalow-title-active,
+  // 输入控件背景色（实心）
+  bg-color-input-solid: $-color-border-shalow-light,
+  // 输入控件背景色
+  bg-color-input: $-color-bg-shalow-input,
+  // 输入控件 下啦空间的禁用背景色
+  bg-color-input-disabled: $-color-bg-shalow-input-disabled,
+  // 表格当前选中行的颜色
+  bg-color-current: $-color-bg-shalow-current,
+  // 次标题对应的线条背景色 #4C4D57 - #FFFFFF
+  bg-color-subtitle: $-color-text-shalow-subtitle,
+  // 报价模板卡片操作栏背景色
+  bg-color-quote: $-color-bg-shalow-quote,
+  // 报价模板卡片状态背景
+  bg-color-tag-bg: $-color-icon-shalow-routine,
+  // 首页的块的激活颜色
+  bg-color-index-block-active: $-color-bg-shalow-index-block-active,
+  
+  // 阴影
+  shadow-color: $-color-shadow-shalow,
+  
+  // loading
+  img-loading: url('~@assets/images/loading4.gif'),
+);
+
+// 红色模式
+$green-theme:(
+  
+/********** 文字颜色--浅色主题 ******************/
+  // 品牌色文字颜色
+  text-color-brand: $-color-brand,
+  //  主标题文字颜色 （主题色）
+  text-color-main: $-color-text-shalow-main,
+  // 次标题文字
+  text-color-subtitle: $-color-text-shalow-subtitle,
+  // 常规文字
+  text-color-routine: $-color-text-shalow-routine,
+  // 次要文字
+  text-color-secondary: $-color-text-shalow-secondary,
+  // 提示文字
+  text-color-occupy: $-color-text-shalow-occupy,
+  // 提示文字
+  text-color-disabled: $-color-text-shalow-disabled,
+
+/********** 边框颜色--浅色主题 ******************/
+  // 品牌色边框
+  border-color-brand: $-color-brand,
+  // 主题色边框
+  border-color-main: $-color-theme-shalow,
+  // 一级边框（按钮边框）
+  border-color-base: $-color-border-shalow-base,
+  // 二级边框（form表单元素边框）
+  border-color-light: $-color-border-shalow-light,
+  // 三级边框（其他边框，除按钮和form都用这个）
+  border-color-lighter: $-color-border-shalow-lighter,
+  // 弹出框边框颜色 #4C4D57 - #FFFFFF
+  border-color-pop: $-color-bg-shalow-pop,
+  // 报价选中小三角
+  border-color-arrow: $-color-text-shalow-secondary,
+  // 报价新增加号
+  border-color-plus: $-color-icon-shalow-nav,
+
+/********** icon色--浅色主题 ******************/
+  // 品牌色icon
+  brand-icon-color: $-color-icon-shalow-brand,
+  // 导航色icon
+  nav-icon-color: $-color-icon-shalow-nav,
+  // 常规icon颜色
+  routine-icon-color: $-color-icon-shalow-routine,
+  // 禁用icon颜色
+  disabled-icon-color: $-color-icon-shalow-disabled,
+
+/********** 背景色--浅色色主题 ******************/
+  // 品牌色背景色
+  bg-color-brand: $-color-brand,
+  // 主题色
+  bg-color-main: $-color-theme-shalow,
+  // 全局大背景颜色
+  bg-color-base: $-color-bg-shalow-base,
+  // 标题（表单、卡片）背景色
+  bg-color-light: $-color-bg-shalow-light,
+  // 弹出框背景色（下拉选择，日期选择，确认框背景色）
+  bg-color-pop: $-color-bg-shalow-pop,
+  // 弹出框激活背景色（下拉选择，日期选择，确认框选中时候的背景色）
+  bg-color-pop-active: $-color-bg-shalow-pop-active,
+  // 表单标题背景（30%透明度）； 导航栏输入框背景底色； 其他通用组件选择激活背景底色
+  bg-color-title-active: $-color-bg-shalow-title-active,
+  // 输入控件背景色（实心）
+  bg-color-input-solid: $-color-border-shalow-light,
+  // 输入控件背景色
+  bg-color-input: $-color-bg-shalow-input,
+  // 输入控件 下啦空间的禁用背景色
+  bg-color-input-disabled: $-color-bg-shalow-input-disabled,
+  // 表格当前选中行的颜色
+  bg-color-current: $-color-bg-shalow-current,
+  // 次标题对应的线条背景色 
+  bg-color-subtitle: $-color-text-shalow-subtitle,
+  // 报价模板卡片操作栏背景色
+  bg-color-quote: $-color-bg-shalow-quote,
+  // 报价模板卡片状态背景
+  bg-color-tag-bg: $-color-icon-shalow-routine,
+  // 首页的块的激活颜色
+  bg-color-index-block-active: $-color-bg-shalow-index-block-active,
+
+  // 阴影
+  shadow-color: $-color-shadow-shalow,
+  
+  // loading
+  img-loading: url('~@assets/images/loading4.gif'),
+);
+
+// 深色模式
+$black-theme:(
+  
+/********** 文字颜色--深色主题 ******************/
+  // 品牌色文字颜色
+  text-color-brand: $-color-brand,
+  // 主标题文字颜色 （主题色）
+  text-color-main: $-color-text-dark-main,
+  // 次标题文字
+  text-color-subtitle: $-color-text-dark-subtitle,
+  // 常规文字
+  text-color-routine: $-color-text-dark-routine,
+  // 次要文字
+  text-color-secondary: $-color-text-dark-secondary,
+  // 提示文字
+  text-color-occupy: $-color-text-dark-occupy,
+  // 提示文字
+  text-color-disabled: $-color-text-dark-disabled,
+
+/********** 边框颜色--深色主题 ******************/
+  // 品牌色边框
+  border-color-brand: $-color-brand,
+  // 主题色边框
+  border-color-main: $-color-text-dark-main,
+  // 一级边框（按钮边框）
+  border-color-base: $-color-border-dark-base,
+  // 二级边框（form表单元素边框）
+  border-color-light: $-color-border-dark-light,
+  // 三级边框（其他边框，除按钮和form都用这个）
+  border-color-lighter: $-color-border-dark-lighter,
+  // 弹出框边框颜色（跟弹出框背景色一样以展示无边框的效果）
+  border-color-pop: $-color-bg-dark-pop,
+  // 报价选中小三角
+  border-color-arrow: $-color-text-dark-secondary,
+  // 报价新增加号
+  border-color-plus: $-color-border-shalow-light,
+
+/********** icon颜色--深色主题 ******************/
+  // 品牌色icon
+  brand-icon-color: $-color-icon-dark-brand,
+  // 导航色icon
+  nav-icon-color: $-color-icon-dark-nav,
+  // 常规icon颜色
+  routine-icon-color: $-color-icon-dark-routine,
+  // 禁用icon颜色
+  disabled-icon-color: $-color-icon-dark-disabled,
+
+/********** 背景色--深色主题 ******************/
+  // 品牌背色背景色
+  bg-color-brand: $-color-brand,
+  // 主题色
+  bg-color-main: $-color-theme-dark,
+  // 全局大背景颜色
+  bg-color-base: $-color-bg-dark-base,
+  // 标题（卡片）背景色
+  bg-color-light: $-color-bg-dark-light,
+  // 弹出框背景色（下拉选择，日期选择，确认框背景色）
+  bg-color-pop: $-color-bg-dark-pop,
+  // 弹出框激活背景色（下拉选择，日期选择，确认框选中时候的背景色）
+  bg-color-pop-active: $-color-bg-dark-pop-active,
+  // 表单标题背景（30%透明度）； 导航栏输入框背景底色； 其他通用组件选择激活背景底色
+  bg-color-title-active: $-color-bg-dark-title-active,
+  // 输入控件背景色（实心）
+  bg-color-input-solid: $-color-bg-dark-input,
+  // 输入控件背景色（空心）
+  bg-color-input: transparent,
+  // 输入控件 下啦空间的禁用背景色
+  bg-color-input-disabled: $-color-bg-dark-input-disabled,
+  // 表格当前选中行的颜色
+  bg-color-current: $-color-bg-dark-current,
+  // 次标题对应的线条背景色 #4C4D57 - #FFFFFF
+  bg-color-subtitle: $-color-white,
+  // 报价模板卡片操作栏背景色
+  bg-color-quote: $-color-bg-dark-quote,
+  // 报价模板卡片状态背景
+  bg-color-tag-bg: $-color-icon-dark-routine,
+  // 首页的块的激活颜色
+  bg-color-index-block-active: $-color-bg-dark-index-block-active,
+
+  // 阴影
+  shadow-color: $-color-shadow-dark,
+
+  // loading
+  img-loading: url('~@assets/images/loading3.gif'),
+);
+
+//定义映射集合
+$component-themes: (
+  default-theme: $default-theme,    // 白色
+  green-theme: $green-theme,        // 红色
+  black-theme: $black-theme         // 暗色
+);
+
+ /* 文字颜色宏  $type， 默认常规颜色 routine */
+// brand      品牌色文字
+// main       主标题文字
+// subtitle   次标题文字
+// routine    常规文字
+// secondary  次要文字
+// occupy     提示文字
+// disabled   禁用状态文字
+@mixin text-color($type:'routine'){
+
+  @each $themename , $theme in $component-themes {
+    [data-theme = '#{$themename}'] & {
+      color: map-get($map: $theme, $key: 'text-color-#{$type}');
+    }
+    //当某个主体的
+  }
+}
+
+/* 边框颜色宏  $type ， 默认三级颜色 lighter */
+// brand      品牌色边框
+// main       主题色边框
+// base       一级边框
+// light      二级边框
+// lighter    三级边框
+// pop        提示框
+// @params $pos 位置 top bottom right left
+@mixin border-color($type:'lighter', $pos: ''){
+  @each $themename , $theme in $component-themes {
+    [data-theme = '#{$themename}'] & {
+      @if $pos != '' {
+        #{'border-' + $pos + '-color'}: map-get($map: $theme, $key: 'border-color-#{$type}');
+      } @else {
+        border-color: map-get($map: $theme, $key: 'border-color-#{$type}');
+      }
+    }
+  }
+}
+
+/* 背景颜色宏  $type，默认文字展示背景颜色 text */
+// brand        品牌背色背景色
+// main         主题色背景
+// base         文字展示背景色
+// brand        品牌背色背景色
+// light        标题（卡片）背景色
+// pop          弹出框背景色（下拉选择，日期选择，确认框背景色）
+// pop-active   弹出框激活背景色（下拉选择，日期选择，确认框选中时候的背景色）
+// title-active 表单标题背景（30%透明度）； 导航栏输入框背景底色； 其他通用组件选择激活背景底色
+// input        输入控件背景色
+// input-disabled 输入控件背景色-禁用
+// current      表格当前选中行的颜色
+// subtitle     次标题背景色（折叠板的标题测的竖线背景色）
+// index-block-active 首页的块的激活颜色
+@mixin bg-color($type:''){
+  @each $themename , $theme in $component-themes {
+    [data-theme = '#{$themename}'] & {
+      background-color: map-get($map: $theme, $key: 'bg-color-#{$type}');
+    }
+  }
+}
+
+/* icon颜色宏  $type，默认颜色 routine */
+// brand         品牌icon颜色
+// nav           左侧导航icon颜色
+// routine       常规icon颜色
+// disabled      禁用icon颜色
+@mixin icon-color($type:'routine'){
+  @each $themename , $theme in $component-themes {
+    [data-theme = '#{$themename}'] & {
+      color: map-get($map: $theme, $key: '#{$type}-icon-color');
+    }
+  }
+}
+
+/******* 属性和颜色组合宏： **********************/
+// $porp           要设置的属性 （ 任何css属性）
+// $colorKey       要设置的颜色 （ theme所有定义颜色对应的key ）
+/**
+ * @description: 对于特殊要求的 不在设计规范内的需求，用此宏：
+ * 例如设置border-top的颜色为常规文字的颜色：@include theme-color('border-top','text-color-secondary');
+ * 就会在不同的主题下border-top会应用对应的常规文字颜色。
+ */
+@mixin theme-color($porp, $colorKey){
+  @each $themename , $theme in $component-themes {
+    [data-theme = '#{$themename}'] & {
+      #{$porp}: map-get($map: $theme, $key: #{$colorKey});
+    }
+  }
+}
+
+/******* 阴影主题 **********************/
+@mixin shadow-color($type: 0 0 10px 0){
+  @each $themename , $theme in $component-themes {
+    [data-theme = '#{$themename}'] & {
+      box-shadow: $type map-get($map: $theme, $key: shadow-color);;
+    }
+  }
+}
+
+// 主题色-new
+@mixin base-color-set($type){
+ @each $themename , $theme in $themes {
+   [data-theme = '#{$themename}'] & {
+       @if $type == main {
+         color: map-get($map: $theme, $key: text-color-base );
+       } @else if $type == subtitle {
+         color: map-get($map: $theme, $key: text-color-subtitle );
+       } @else if $type == routine {
+         color: map-get($map: $theme, $key: text-color-routine ) !important;
+       } @else if $type == secondary {
+         color: map-get($map: $theme, $key: text-color-secondary );
+       } @else if $type == occupy {
+         color: map-get($map: $theme, $key: text-color-occupy );
+       } 
+     }
+ }
+}
