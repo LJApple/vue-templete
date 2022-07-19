@@ -1,11 +1,3 @@
-# 环境域名
-dev：http://192.168.12.98/vip-front/#/login
-test：https://test-jk.jet.co.id/vip-front/index.html#/login
-uat：https://uat-jk.jet.co.id/vip-front/#/login
-pro： https://api.jet.co.id/vip-front/#/login
-
-# test账号 密码
-
 # 目录结构
 ```
 ├─.env
